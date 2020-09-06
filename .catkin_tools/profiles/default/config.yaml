@@ -1,0 +1,36 @@
+authors: []
+blacklist:
+- leg_detector
+- people_tracking_filter
+- imagesift
+- face_detector
+- jsk_interactive_marker
+- jsk_interactive
+- jsk_interactive_test
+- jsk_pcl_ros
+- jsk_perception
+build_space: build
+catkin_make_args: []
+cmake_args:
+- -DCMAKE_BUILD_TYPE=Release
+- -DCATKIN_ENABLE_TESTING=OFF
+- -DOMPL_BUILD_DEMOS=OFF
+- -DOMPL_BUILD_TESTS=OFF
+- -DOMPL_BUILD_PYTESTS=OFF
+- -DOMPL_BUILD_PYBINDINGS=ON
+devel_layout: linked
+devel_space: devel
+extend_path: null
+extends: null
+install: false
+install_space: install
+isolate_install: false
+jobs_args: []
+licenses: TODO
+log_space: logs
+maintainers: []
+make_args: []
+source_space: src
+use_env_cache: false
+use_internal_make_jobserver: true
+whitelist: []
