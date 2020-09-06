@@ -1,0 +1,5 @@
+tf-nightly-gpu>=2.4.0-dev20200830
+progressbar2
+tensorflow_probability
+colorama
+dataclasses_json
