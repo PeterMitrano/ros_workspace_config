@@ -1,0 +1,1 @@
+catkin config  --blacklist hdt_kinematics_plugin people_tracking_filter face_detector leg_detector jsk_perception jsk_interactive_marker jsk_interactive jsk_pcl_ros jsk_interactive_test
