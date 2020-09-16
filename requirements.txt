@@ -1,4 +1,6 @@
 tf-nightly-gpu>=2.4.0-dev20200830
+numpy
+matplotlib
 pyplusplus
 GitPython
 progressbar2
