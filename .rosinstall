@@ -8,54 +8,35 @@
     local-name: cnpy
     uri: git@github.com:PeterMitrano/cnpy.git
 - git:
-    local-name: geometric_shapes
-    uri: https://github.com/ros-planning/geometric_shapes.git
-    version: noetic-devel
-- git:
     local-name: hdt_robot
     uri: git@github.com:UM-ARM-LAB/hdt_robot
+    version: peter_3d_rope
+- git:
+    local-name: iiwa_stack
+    uri: https://github.com/IFL-CAMP/iiwa_stack
 - git:
     local-name: jsk_recognition
-    uri: git@github.com:jsk-ros-pkg/jsk_recognition.git
+    uri: git@github.com:UM-ARM-Lab/jsk_recognition.git
 - git:
     local-name: jsk_visualization
-    uri: git@github.com:jsk-ros-pkg/jsk_visualization.git
+    uri: git@github.com:ruvu/jsk_visualization.git
+    version: fix/noetic
 - git:
     local-name: kuka_iiwa_interface
     uri: git@github.com:UM-ARM-LAB/kuka_iiwa_interface.git
+    version: peter
 - git:
     local-name: link_bot
     uri: git@github.com:UM-ARM-LAB/link_bot.git
-- git:
-    local-name: moveit
-    uri: https://github.com/ros-planning/moveit.git
-    version: master
-- git:
-    local-name: moveit_msgs
-    uri: https://github.com/ros-planning/moveit_msgs.git
-    version: master
-- git:
-    local-name: moveit_resources
-    uri: https://github.com/ros-planning/moveit_resources.git
-    version: master
-- git:
-    local-name: moveit_tutorials
-    uri: https://github.com/ros-planning/moveit_tutorials.git
-    version: master
-- git:
-    local-name: moveit_visual_tools
-    uri: https://github.com/ros-planning/moveit_visual_tools.git
-    version: master
+    version: bionic_repro
 - git:
     local-name: mps_shape_completion
     uri: git@github.com:UM-ARM-LAB/mps_shape_completion.git
+    version: model_runner
 - git:
     local-name: ompl
     uri: git@github.com:UM-ARM-Lab/ompl.git
-- git:
-    local-name: panda_moveit_config
-    uri: https://github.com/ros-planning/panda_moveit_config.git
-    version: melodic-devel
+    version: peter
 - git:
     local-name: people
     uri: git@github.com:wg-perception/people.git
@@ -63,15 +44,16 @@
     local-name: ros_numpy
     uri: git@github.com:eric-wieser/ros_numpy.git
 - git:
-    local-name: rviz_visual_tools
-    uri: https://github.com/PickNikRobotics/rviz_visual_tools
-    version: master
+    local-name: rqt_console
+    uri: git@github.com:PeterMitrano/rqt_console.git
+    version: ansi_color
 - git:
     local-name: sdf_tools
     uri: git@github.com:UM-ARM-LAB/sdf_tools.git
+    version: fix-opencv
 - git:
-    local-name: srdfdom
-    uri: git@github.com:ros-planning/srdfdom.git
+    local-name: timed_roslaunch
+    uri: git@github.com:MoriKen254/timed_roslaunch.git
 - git:
     local-name: view_controller_msgs
     uri: git@github.com:ros-visualization/view_controller_msgs.git
