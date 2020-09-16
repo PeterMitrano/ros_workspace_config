@@ -6,3 +6,5 @@ tensorflow_probability
 colorama
 dataclasses_json
 tabulate
+orjson
+hjson
