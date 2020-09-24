@@ -10,3 +10,4 @@ dataclasses_json
 tabulate
 orjson
 hjson
+pybind11
