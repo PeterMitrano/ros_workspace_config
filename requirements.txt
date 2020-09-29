@@ -11,3 +11,4 @@ tabulate
 orjson
 hjson
 pybind11
+more_itertools
