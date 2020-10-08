@@ -2,15 +2,22 @@
     local-name: arc_utilities
     uri: git@github.com:UM-ARM-LAB/arc_utilities.git
 - git:
+    local-name: arm_robots
+    uri: git@github.com:UM-ARM-Lab/arm_robots.git    
+- git:
     local-name: arm_video_recorder
     uri: git@github.com:UM-ARM-LAB/arm_video_recorder.git
 - git:
     local-name: cnpy
     uri: git@github.com:PeterMitrano/cnpy.git
 - git:
+    local-name: gazebo_ros_link_attacher
+    uri: git@github.com:UM-ARM-Lab/gazebo_ros_link_attacher.git
+    version: noetic-devel
+- git:
     local-name: hdt_robot
     uri: git@github.com:UM-ARM-LAB/hdt_robot
-    version: peter_3d_rope
+    version: peter
 - git:
     local-name: iiwa_stack
     uri: https://github.com/IFL-CAMP/iiwa_stack
@@ -28,7 +35,7 @@
 - git:
     local-name: link_bot
     uri: git@github.com:UM-ARM-LAB/link_bot.git
-    version: bionic_repro
+    version: bionic_noetic
 - git:
     local-name: mps_shape_completion
     uri: git@github.com:UM-ARM-LAB/mps_shape_completion.git
@@ -38,8 +45,8 @@
     uri: git@github.com:UM-ARM-Lab/ompl.git
     version: peter
 - git:
-    local-name: people
-    uri: git@github.com:wg-perception/people.git
+    local-name: pyrosmsg
+    uri: git@github.com:dimatura/pyrosmsg.git
 - git:
     local-name: ros_numpy
     uri: git@github.com:eric-wieser/ros_numpy.git
@@ -57,7 +64,3 @@
 - git:
     local-name: view_controller_msgs
     uri: git@github.com:ros-visualization/view_controller_msgs.git
-- git:
-    local-name: gazebo_ros_link_attacher
-    uri: git@github.com:UM-ARM-Lab/gazebo_ros_link_attacher.git
-    version: noetic-devel
