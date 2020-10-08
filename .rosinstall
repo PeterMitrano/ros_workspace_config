@@ -58,5 +58,6 @@
     local-name: view_controller_msgs
     uri: git@github.com:ros-visualization/view_controller_msgs.git
 - git:
-    local-name: wu_ros_tools
-    uri: git@github.com:DLu/wu_ros_tools.git
+    local-name: gazebo_ros_link_attacher
+    uri: git@github.com:UM-ARM-Lab/gazebo_ros_link_attacher.git
+    version: noetic-devel
