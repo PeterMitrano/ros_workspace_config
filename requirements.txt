@@ -13,3 +13,4 @@ hjson
 pybind11
 more_itertools
 ipython
+scipy
