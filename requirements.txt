@@ -13,6 +13,7 @@ hjson
 pybind11
 more_itertools
 ipython
+halo
 scipy
 boto3
 grid-strategy
