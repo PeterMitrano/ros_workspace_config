@@ -5,6 +5,7 @@ dataclasses_json
 grid-strategy
 halo
 hjson
+inputs
 ipython
 matplotlib
 more_itertools
