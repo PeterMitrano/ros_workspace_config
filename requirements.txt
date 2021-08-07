@@ -10,13 +10,14 @@ ipython
 matplotlib
 more_itertools
 numpy
-orjson
 pandas
 progressbar2
 pybind11
 pyplusplus
 scipy
 tabulate
-tensorflow-gpu==2.3.1
+tensorflow==2.3.1
+seaborn
+lazyarray
 tensorflow_probability==0.11.1
 transformations
