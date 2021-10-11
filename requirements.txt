@@ -2,6 +2,7 @@ GitPython
 boto3
 colorama
 dataclasses_json
+dynamo_pandas
 grid-strategy
 halo
 hjson
