@@ -9,6 +9,7 @@ inputs
 ipython
 matplotlib
 more_itertools
+mss
 numpy
 pandas
 progressbar2
@@ -21,3 +22,4 @@ seaborn
 lazyarray
 tensorflow_probability==0.11.1
 transformations
+tqdm
